@@ -43,8 +43,12 @@ const swiper = new Swiper('.swiper', {
     spaceBetween: 30,
     breakpoints: {
         // when window width is >= 320px
+        320:{  slidesPerView: 1,
+          spaceBetween: 40
+        },
+
         640: {
-          slidesPerView: 2,
+          slidesPerView: 1,
           spaceBetween: 40
         },
         // when window width is >= 480px
