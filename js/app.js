@@ -1,7 +1,7 @@
 const swiper = new Swiper('.swiper', {
     // Optional parameters
     direction: 'horizontal',
-    // speed: 400,
+    speed: 400,
   
     autoplay: {
       delay: 500,
