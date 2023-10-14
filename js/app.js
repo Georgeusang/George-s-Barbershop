@@ -1,7 +1,14 @@
 const swiper = new Swiper('.swiper', {
     // Optional parameters
     direction: 'horizontal',
+    // speed: 400,
   
+    autoplay: {
+      delay: 500,
+     
+    },
+  
+
     // If we need pagination
     pagination: {
       el: '.swiper-pagination',
@@ -28,17 +35,8 @@ const swiper = new Swiper('.swiper', {
       invert:true,
     },
   
-    autoplay: {
-      delay: 1000,
-     
-    },
-  
-    speed: 400,
-  
     loop: true,
 
-  
-    
     slidesPerView: 2,
     spaceBetween: 30,
     breakpoints: {
