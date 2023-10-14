@@ -1,0 +1,53 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:ital,wght@0,200;0,300;0,400;1,200;1,300&display=swap');
+
+
+* {  padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+
+
+main { background-image:linear-gradient(rgba(0, 0, 0, 0.5),#009688), url(../images/delfina-pan-wJoB8D3hnzc-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;}
+
+    /* global stylings */
+
+    .z {  z-index: 100;}
+
+.pri-text-col {color:#009688 !important;}
+
+.sec-text-col {color:#ce5310  !important;}
+
+.pri-bg-col  {background-color: #009688 !important;}
+
+
+.index-btn { transition: all ease-in-out 0.2s !important;}
+
+.index-btn:hover {  background-color: #ce5310 !important;
+    color: white !important; 
+transform: scale(1.15) !important; }
+
+
+/* Testimonials */
+.card-zoom {
+    transition: ease-in-out 0.5s;
+}
+
+.card-zoom:hover {
+    transform: scale(1.09);
+    cursor: pointer;
+}
+
+
+/* swiper js */
+.swiper {
+    width: 80%;
+  }
+
