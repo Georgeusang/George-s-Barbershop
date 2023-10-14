@@ -27,10 +27,7 @@ main { background-image:linear-gradient(rgba(0, 0, 0, 0.5),#009688), url(../imag
 
 .pri-bg-col  {background-color: #009688 !important;}
 
-.smallerp { font-size: 12px !important;}
 
-
-/* buttons */
 .index-btn { transition: all ease-in-out 0.2s !important;}
 
 .index-btn:hover {  background-color: #ce5310 !important;
@@ -67,7 +64,7 @@ transform: scale(0.8);
 
 .img-port .portfolio-info:hover { color: white; 
 opacity: 1; 
-transform: scale(1.1); }
+transform: scale(1.1);  }
 
 
 /* swiper js */
